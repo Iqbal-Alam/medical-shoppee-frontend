@@ -1,0 +1,44 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-color: #fff;
+    flex-direction: column;
+    margin: 10px;
+}
+.login-text {
+    margin: -16px -16px 0 -16px;
+    background: #079494;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    // color: mat.color($my-custom-color, 500);
+}
+.login-form-container {
+    padding: 45px 15px 10px 15px;
+    background-color: #fff;
+}
+.button-container {
+    text-align: right;
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+mat-form-field .mat-form-field-infix {
+    width: 100%;
+}
+
+mat-form-field input.mat-input-element {
+    width: 100%;
+}
+
+.login-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}

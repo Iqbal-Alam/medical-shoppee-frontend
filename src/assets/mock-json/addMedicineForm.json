@@ -1,0 +1,62 @@
+[
+    {
+        "label": "Medicine Name",
+        "value": "medicine_name"
+    },
+    {
+        "label": "HSN",
+        "value": "hsn"
+    },
+    {
+        "label": "Pack",
+        "value": "pack"
+    },
+    {
+        "label": "MFG",
+        "value": "mfg"
+    },
+    {
+        "label": "EXP",
+        "value": "exp"
+    },
+    {
+        "label": "Batch",
+        "value": "batch"
+    },
+    {
+        "label": "QTY",
+        "value": "qty"
+    },
+    {
+        "label": "Free",
+        "value": "free"
+    },
+    {
+        "label": "Scheme",
+        "value": "scheme"
+    },
+    {
+        "label": "MRP",
+        "value": "mrp"
+    },
+    {
+        "label": "Rate",
+        "value": "rate"
+    },
+    {
+        "label": "TD%",
+        "value": "tax_td"
+    },
+    {
+        "label": "TD AMT",
+        "value": "tax_td_amt"
+    },
+    {
+        "label": "GST%",
+        "value": "gst"
+    },
+    {
+        "label": "Amount",
+        "value": "amount"
+    }
+]

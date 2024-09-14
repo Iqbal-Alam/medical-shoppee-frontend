@@ -1,0 +1,18 @@
+.addMedicineFormContainer{
+    padding: 15px;
+    mat-card-title{
+        padding: 15px;
+    }
+    mat-card-content{
+        padding: 15px !important;
+    }
+}
+.addMedicineForm{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    .form-card{
+        width: 15%;
+    }
+}

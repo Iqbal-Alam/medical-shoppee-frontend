@@ -1,0 +1,20 @@
+.medicineTableContainer {
+    padding: 15px;
+    // height: 400px;
+    // overflow: auto;
+    mat-card-title {
+        padding: 15px;
+    }
+    mat-form-field {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    mat-paginator {
+        margin-top: 16px;
+    }
+}

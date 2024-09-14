@@ -1,0 +1,20 @@
+<div class="editMedicineFormContainer">
+    <h1 mat-dialog-title>Edit Medicine</h1>
+    <div mat-dialog-content>
+        <form [formGroup]="medicineForm" (ngSubmit)="onSubmit()" class="editFormField">
+            <div *ngFor="let item of editObjectData" class="editFormFieldContent">
+                <mat-form-field appearance="fill">
+                    <mat-label>{{item.label}}</mat-label>
+                    <input matInput formControlName={{item.label}}>
+                </mat-form-field>
+            </div>
+            
+        </form>
+    </div>
+    <div mat-dialog-actions>
+        <button mat-button (click)="onCancel()">Cancel</button>
+        <button mat-button color="primary" type="submit" (click)="onSubmit()">Save</button>
+    </div>
+
+
+</div>

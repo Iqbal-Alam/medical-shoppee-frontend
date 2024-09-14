@@ -1,0 +1,27 @@
+@use '@angular/material' as mat;
+@import './custom-theme';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+// .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+//     background-color: transparent;
+// }
+
+
+
+$candy-app-primary: mat.define-palette(mat.$gray-palette, 900, 800, 900);
+$candy-app-accent: mat.define-palette(mat.$green-palette, 900, 800, 900);
+$my-custom-color: mat.define-palette($wfs-blue-palette, 800, 700, 900);
+$candy-app-theme: mat.define-light-theme((
+  color: (
+    primary: $my-custom-color,
+    accent: mat.define-palette(mat.$pink-palette),
+    warn: mat.define-palette(mat.$red-palette),
+  )
+));
+@include mat.core();
+@include mat.all-component-themes($candy-app-theme);
+
+// h1 {
+//     color: mat.color($my-custom-color, 500);
+// }

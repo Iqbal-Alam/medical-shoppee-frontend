@@ -1,0 +1,35 @@
+$dark-primary-text: rgba(black, 0.87);
+$light-primary-text: white;
+
+$wfs-blue-palette: (
+    50 : #e2f5f5,
+    100 : #b6e7e7,
+    200 : #86d7d7,
+    300 : #56c6c6,
+    400 : #31baba,
+    500 : #0daeae,
+    600 : #0ba7a7,
+    700 : #099d9d,
+    800 : #079494,
+    900 : #038484,
+    A100 : #b1ffff,
+    A200 : #7effff,
+    A400 : #4bffff,
+    A700 : #31ffff,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #000000,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
